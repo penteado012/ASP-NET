@@ -1,0 +1,14 @@
+C:\Users\mathe\source\repos\TP01\TP01\obj\Debug\net10.0\TP01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mathe\source\repos\TP01\TP01\obj\Debug\net10.0\TP01.AssemblyInfoInputs.cache
+C:\Users\mathe\source\repos\TP01\TP01\obj\Debug\net10.0\TP01.AssemblyInfo.cs
+C:\Users\mathe\source\repos\TP01\TP01\obj\Debug\net10.0\TP01.csproj.CoreCompileInputs.cache
+C:\Users\mathe\source\repos\TP01\TP01\bin\Debug\net10.0\TP01.exe
+C:\Users\mathe\source\repos\TP01\TP01\bin\Debug\net10.0\TP01.deps.json
+C:\Users\mathe\source\repos\TP01\TP01\bin\Debug\net10.0\TP01.runtimeconfig.json
+C:\Users\mathe\source\repos\TP01\TP01\bin\Debug\net10.0\TP01.dll
+C:\Users\mathe\source\repos\TP01\TP01\bin\Debug\net10.0\TP01.pdb
+C:\Users\mathe\source\repos\TP01\TP01\obj\Debug\net10.0\TP01.dll
+C:\Users\mathe\source\repos\TP01\TP01\obj\Debug\net10.0\refint\TP01.dll
+C:\Users\mathe\source\repos\TP01\TP01\obj\Debug\net10.0\TP01.pdb
+C:\Users\mathe\source\repos\TP01\TP01\obj\Debug\net10.0\TP01.genruntimeconfig.cache
+C:\Users\mathe\source\repos\TP01\TP01\obj\Debug\net10.0\ref\TP01.dll
