@@ -1,0 +1,132 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"] - TP02</title>
+
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TP02.styles.css" asp-append-version="true" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+
+                <!-- Nome do sistema -->
+                <a class="navbar-brand" asp-controller="Home" asp-action="Index">
+                    TP02
+                </a>
+
+                <!-- Botão para celular -->
+                <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#menuPrincipal"
+                        aria-controls="menuPrincipal"
+                        aria-expanded="false"
+                        aria-label="Abrir menu">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <!-- Menu -->
+                <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <!-- Home -->
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-controller="Home"
+                               asp-action="Index">
+                                Home
+                            </a>
+                        </li>
+
+                        <!-- BLs -->
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-controller="BLs"
+                               asp-action="Index">
+                                BLs
+                            </a>
+                        </li>
+
+                        <!-- Containers -->
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-controller="Containers"
+                               asp-action="Index">
+                                Containers
+                            </a>
+                        </li>
+
+                        <!-- Relatório -->
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-controller="Relatorio"
+                               asp-action="Index">
+                                Relatório
+                            </a>
+                        </li>
+
+                        <!-- Privacy -->
+                        <li class="nav-item">
+                            <a class="nav-link"
+                               asp-controller="Home"
+                               asp-action="Privacy">
+                                Privacy
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- Conteúdo das páginas -->
+    <div class="container mt-4">
+
+        <main role="main" class="pb-3">
+
+            @RenderBody()
+
+        </main>
+
+    </div>
+
+    <!-- Rodapé -->
+    <footer class="border-top footer text-muted mt-5">
+
+        <div class="container">
+
+            &copy; 2026 - TP02 -
+
+            <a asp-controller="Home" asp-action="Privacy">
+                Privacy
+            </a>
+
+        </div>
+
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+
+</body>
+</html>

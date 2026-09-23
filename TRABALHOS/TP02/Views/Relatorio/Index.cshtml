@@ -1,0 +1,30 @@
+﻿@model IEnumerable<SistemaBLContainer.Models.BL>
+
+@{
+    ViewData["Title"] = "Relatório de BLs";
+}
+
+<h1>Relatório de BLs</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Número do BL</th>
+            <th>Consignee</th>
+            <th>Navio</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var bl in Model)
+        {
+            <tr>
+                <td>@bl.Id</td>
+                <td>@bl.Numero</td>
+                <td>@bl.Consignee</td>
+                <td>@bl.Navio</td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,45 @@
+@model SistemaBLContainer.Models.BL
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>BL</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Numero)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Numero)
+        </dd>
+    </dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Consignee)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Consignee)
+        </dd>
+    </dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Navio)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Navio)
+        </dd>
+    </dl>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Containers)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Containers)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
