@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="TP04.API/TP04.API.csproj" />
+  <Project Path="TP04.Dominio/TP04.Dominio.csproj" />
+  <Project Path="TP04.Web/TP04.Web.csproj" />
+</Solution>
